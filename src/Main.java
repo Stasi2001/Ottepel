@@ -13,7 +13,7 @@ public class Main {
         int longestThaw = 0;
         int currentThaw = 0;
 
-        for (int temp = temperatures) {
+        for (int temp :temperatures) {
             if (temp > 0) {
                 currentThaw++;
             } else {
